@@ -2,7 +2,6 @@
 """
 Created on Tue Apr  3 22:30:50 2018
 
-@author: Devashree
 """
 
 import pandas as pd
@@ -14,12 +13,7 @@ from collections import OrderedDict
 import os.path
 import time
 
-
-
-
-
 blacklist=[]
-
 
 def PreprocessTrain():
     dataset = pd.read_csv('TrainDATA.csv')
